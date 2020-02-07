@@ -30,7 +30,9 @@ class CStudent{
     init(studentId:Int,studentName:String,totalMarks:Double){
           self.studentId = studentId
           self.studentName = studentName
-          self.totalMarks = totalMarks
+        if let t = totalMarks{
+            print("total mark")
+        }
       }
       
     

@@ -19,4 +19,9 @@ struct SStudent{
         print("total martks:\(self.totalMarks)")
      
    }
+    init(studentId:Int,studentName:String) {
+        self.studentId=studentId
+        self.studentName=studentName
+        self.totalMarks=0.0
+    }
 }
