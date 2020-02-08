@@ -10,13 +10,12 @@ import Foundation
 struct SStudent{
     var studentId : Int
     var studentName : String
-    var totalMarks : Double
+    var totalMarks : Double?
     func display()
     {
         print(".....Structure......")
         print("Student id:\(self.studentId)")
         print("Student Name:\(self.studentName)")
-        print("total martks:\(self.totalMarks)")
      
    }
     init(studentId:Int,studentName:String) {
@@ -24,4 +23,5 @@ struct SStudent{
         self.studentName=studentName
         self.totalMarks=0.0
     }
+    
 }

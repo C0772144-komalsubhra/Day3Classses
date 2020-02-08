@@ -14,7 +14,7 @@ class CStudent{
     var totalMarks : Double
     func display()
     {
-        print(".....Structure......")
+        print(".....class......")
         print("Student id:\(studentId)")
         print("Student Name:\(studentName)")
         print("total martks:\(totalMarks)")
@@ -30,10 +30,14 @@ class CStudent{
     init(studentId:Int,studentName:String,totalMarks:Double){
           self.studentId = studentId
           self.studentName = studentName
-        if let t = totalMarks{
-            print("total mark")
+        self.totalMarks = totalMarks
+    }
+    deinit{
+        print("deinit() - Cstudent")
+        defer{
+            print("hello")
         }
-      }
-      
+        print("deinit()-ends")
+    }
     
 }

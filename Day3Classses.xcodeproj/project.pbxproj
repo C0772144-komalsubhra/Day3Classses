@@ -10,6 +10,8 @@
 		9B14D66A23EE2244005BCA9D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B14D66923EE2244005BCA9D /* main.swift */; };
 		9B14D67123EE24A8005BCA9D /* SStudent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B14D67023EE24A8005BCA9D /* SStudent.swift */; };
 		9B14D67323EE25C2005BCA9D /* CStudent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B14D67223EE25C2005BCA9D /* CStudent.swift */; };
+		9B14D67523EE2BE0005BCA9D /* Structure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B14D67423EE2BE0005BCA9D /* Structure.swift */; };
+		9B14D69023EE418E005BCA9D /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B14D68F23EE418E005BCA9D /* Employee.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +31,8 @@
 		9B14D66923EE2244005BCA9D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		9B14D67023EE24A8005BCA9D /* SStudent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SStudent.swift; sourceTree = "<group>"; };
 		9B14D67223EE25C2005BCA9D /* CStudent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CStudent.swift; sourceTree = "<group>"; };
+		9B14D67423EE2BE0005BCA9D /* Structure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Structure.swift; sourceTree = "<group>"; };
+		9B14D68F23EE418E005BCA9D /* Employee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +68,8 @@
 				9B14D66923EE2244005BCA9D /* main.swift */,
 				9B14D67023EE24A8005BCA9D /* SStudent.swift */,
 				9B14D67223EE25C2005BCA9D /* CStudent.swift */,
+				9B14D67423EE2BE0005BCA9D /* Structure.swift */,
+				9B14D68F23EE418E005BCA9D /* Employee.swift */,
 			);
 			path = Day3Classses;
 			sourceTree = "<group>";
@@ -129,6 +135,8 @@
 				9B14D66A23EE2244005BCA9D /* main.swift in Sources */,
 				9B14D67123EE24A8005BCA9D /* SStudent.swift in Sources */,
 				9B14D67323EE25C2005BCA9D /* CStudent.swift in Sources */,
+				9B14D69023EE418E005BCA9D /* Employee.swift in Sources */,
+				9B14D67523EE2BE0005BCA9D /* Structure.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
